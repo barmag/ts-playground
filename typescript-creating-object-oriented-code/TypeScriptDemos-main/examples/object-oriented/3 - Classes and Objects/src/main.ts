@@ -1,12 +1,16 @@
 import { CheckingAccount } from './scripts/checking-account';
+import { CheckingAccount2 } from './scripts/checking-account-copy';
 import { Renderer } from './scripts/renderer';
 
 class Main {
     checkingAccount: CheckingAccount;
+    checking2: CheckingAccount2
 
     constructor(/* private renderer: Renderer */) {
         // Create CheckingAccount instance
         this.checkingAccount = new CheckingAccount('John Doe Checking');
+        this.checking2 = new CheckingAccount2("1000-5000");
+        this.checking2.balance += 20;
         this.renderAccount();
     }
 

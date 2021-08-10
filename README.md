@@ -6,3 +6,8 @@ https://app.pluralsight.com/library/courses/getting-started-typescript/table-of-
 
 ## Creating Object-oriented TypeScript Code
 https://app.pluralsight.com/library/courses/typescript-creating-object-oriented-code/table-of-contents
+- Create object using object literal
+- Create object using class keyword
+- Create object using a function
+- Create object using Object.create
+- Automatic properties in class constructor
